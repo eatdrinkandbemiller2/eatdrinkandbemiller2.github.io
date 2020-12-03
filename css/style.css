@@ -138,6 +138,10 @@ ion-icon {
     cursor: pointer;
 }
 
+.increase, .decrease {
+    cursor: pointer;
+}
+
 .cartImage {
     width: 20%;
 }
