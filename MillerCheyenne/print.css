@@ -1,0 +1,35 @@
+* { box-sizing: border-box; }
+	   
+#wrapper { margin: 0 auto; 
+           width: 80%; 
+		  color: black; }
+		  
+header {display: none;}
+
+h1 {display: block;
+	color: #8b4513;
+	font-family: Arial, sans-serif;}
+
+nav { display: none; }
+
+main { font-family: "Times New Roman", serif; 
+		font-size: 12pt; }
+
+h2 { color: #8b4513;
+    font-family: Arial, sans-serif; }
+
+h3 {color: #8b4513; }
+
+iframe {display: none;}
+
+.pgbreak {page-break-before: always;}
+#mainboots {display: none;}
+#actboots {display: none;}
+			 
+footer { font-size: 90%; 
+       text-align: center;
+	   padding: 10px;
+	   background-color: #000000; 
+	   color: #8b4513;
+}
+

@@ -1,0 +1,19 @@
+form {display: flex;
+		flex-flow: column nowrap;
+		padding-right: 0.25em;
+}
+
+input, textarea {margin-bottom: 0.5em;
+}
+
+@media (min-width: 600px) {
+	form {display: grid;
+		grid-template-rows: auto;
+		grid-template-columns: 15em auto;
+		grid-gap: 1em; 
+		gap: 1em;
+		width: 90%;
+	}
+	input[type="submit"] { grid-column: 2 / 3;
+                       width: 9em; margin-left: 0;}
+}
