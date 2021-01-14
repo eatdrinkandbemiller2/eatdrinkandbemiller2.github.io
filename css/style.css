@@ -1,3 +1,44 @@
+/*page background color*/
+body {
+    background-color: #eceeec;
+}
+
+/*background and text for navigation bar & footer*/
+.backgrnd {
+    background-color: #1e2b37;
+    color: #c0c0c0;
+}
+
+.text-color a {
+    color: #c0c0c0;
+}
+
+.text-color a:hover {
+    color: #17a2b8;
+}
+
+.bateman-title {
+    color: #0f81c7;
+}
+
+.dropdown-menu {
+    background-color: #1e2b37;
+}
+
+.footer-text {
+    color: white;
+}
+
+.footer-text a {
+    color: #1d79b3fd;
+}
+
+.footer-text a:hover {
+    color: #17a2b8;
+}
+
+
+/*banner image on home, about, contact, gallery & FAQ*/
 .bg
 {background-image: url("banner_cropped.jpg");
 background-repeat: no-repeat;
@@ -17,19 +58,48 @@ margin: auto;
 color: black;
 text-shadow: 2px 2px 5px white;}
 
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color:  #faea05;
-    border-color: #faea05;
-    color: #774E28;
-    font-weight: bold;
+
+/*formatting for cards with text*/
+.item-card {
+    background-color: #1e2b37;
 }
 
-.ratings {
-    color: #faea05;
+.item-card a:hover {
+    color: #17a2b8;
 }
 
 .card-title {
-    color: #774E28;
+    color: #0f81c7;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color:  #c0c0c0;
+    border-color:  #c0c0c0;
+    color: #0d669cfd;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #c0c0c0;
+}
+
+.btn {
+    color:  #0d669cfd;
+}
+
+.btn-link {
+    color:   #0d669cfd;
+}
+
+.btn-link:hover {
+    color: #17a2b8;
+}
+
+.btn-secondary {
+    color: #faea05;
+    background-color: #774E28;
+    border-color: #774E28;
+    
 }
 
 a:hover {
@@ -37,7 +107,11 @@ a:hover {
 }
 
 h2, h4 {
-    color:  #774E28;
+    color: #0f81c7;
+}
+
+.ratings {
+    color: #faea05;
 }
 
 .vertical-center {
@@ -50,25 +124,6 @@ h2, h4 {
 
 .top-margin {
     margin-top: 100px;
-}
-
-.btn {
-    color:  #774E28;
-}
-
-.btn-link {
-    color:  #774E28;
-}
-
-.btn-link:hover {
-    color: #774e2869;
-}
-
-.btn-secondary {
-    color: #faea05;
-    background-color: #774E28;
-    border-color: #774E28;
-    
 }
 
 ion-icon {
